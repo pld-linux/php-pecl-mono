@@ -8,6 +8,7 @@ Release:	0.1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_modname}-%{version}.tgz
+# Source0-md5:	1383591b3295af68941ee56a9c5d610a
 URL:		http://pear.php.net/
 BuildRequires:	php-devel
 Requires:	php-common
