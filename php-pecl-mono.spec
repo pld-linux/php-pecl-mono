@@ -7,9 +7,9 @@ Version:	0.7
 Release:	0.1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-Source0:	http://pear.php.net/get/%{_modname}-%{version}.tgz
+Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	23639443898018a743250a62b1873a89
-URL:		http://pear.php.net/package/mono/
+URL:		http://pecl.php.net/package/mono/
 BuildRequires:	php-devel
 BuildRequires:	mono-devel
 Requires:	php-common
