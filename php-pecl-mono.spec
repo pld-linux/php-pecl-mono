@@ -1,16 +1,17 @@
 %define		_modname	mono
-%define		_status		alpha
+%define		_status		beta
 Summary:	Allows you to access .NET assemblies from PHP
 Summary(pl):	Pozwala na dostêp do wstawek .NET w PHP
 Name:		php-pecl-%{_modname}
-Version:	0.3.1
+Version:	0.7
 Release:	0.1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	1383591b3295af68941ee56a9c5d610a
+# Source0-md5:	23639443898018a743250a62b1873a89
 URL:		http://pear.php.net/
 BuildRequires:	php-devel
+BuildRequires:	mono-devel
 Requires:	php-common
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -21,13 +22,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A C extension that interfaces with the mono library to allow access to
 .NET assemblies.
 
-This class has in PEAR status: %{_status}.
+This extension has in PEAR status: %{_status}.
 
 %description -l pl
 Rozszerzenie w C, które jest interfejsem do biblioteki mono,
 pozwalaj±cym na dostêp do wstawek w .NET.
 
-Ta klasa ma w PEAR status: %{_status}.
+To rozszerzenie ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
