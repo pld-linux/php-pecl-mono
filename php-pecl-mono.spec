@@ -22,13 +22,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A C extension that interfaces with the mono library to allow access to
 .NET assemblies.
 
-This extension has in PEAR status: %{_status}.
+In PECL status of this package is: %{_status}.
 
 %description -l pl
 Rozszerzenie w C, które jest interfejsem do biblioteki mono,
 pozwalaj±cym na dostêp do wstawek w .NET.
 
-To rozszerzenie ma w PEAR status: %{_status}.
+To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
