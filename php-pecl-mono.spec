@@ -13,6 +13,7 @@ URL:		http://pecl.php.net/package/mono/
 BuildRequires:	php-devel
 BuildRequires:	mono-devel
 Requires:	php-common
+Obsoletes:	php-mono
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sysconfdir	/etc/php
