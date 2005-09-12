@@ -10,8 +10,8 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	23639443898018a743250a62b1873a89
 URL:		http://pecl.php.net/package/mono/
-BuildRequires:	php-devel
 BuildRequires:	mono-devel
+BuildRequires:	php-devel
 Requires:	php-common
 Obsoletes:	php-mono
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
