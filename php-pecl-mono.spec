@@ -1,5 +1,6 @@
 # TODO
 # - doesn't compile
+#  - php-pecl-mono-0.7/mono-0.7/php_mono.c:33:37: mono/metadata/tabledefs.h: No such file or directory
 # - package examples into examplesdir
 %define		_modname	mono
 %define		_status		beta
@@ -43,7 +44,7 @@ phpize
 	--with-%{_modname}
 
 %{__make} \
-CPPFLAGS="-DHAVE_CONFIG_H -I%{_prefix}/X11R6/include/X11/" \
+CPPFLAGS="-DHAVE_CONFIG_H -I/usr/X11R6/include/X11/" \
 	CFLAGS_CLEAN="%{rpmcflags}"
 
 %install
