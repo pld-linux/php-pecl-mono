@@ -5,7 +5,7 @@
 %define		_modname	mono
 %define		_status		beta
 Summary:	Allows you to access .NET assemblies from PHP
-Summary(pl):	Pozwala na dostêp do wstawek .NET w PHP
+Summary(pl.UTF-8):   Pozwala na dostÄ™p do wstawek .NET w PHP
 Name:		php-pecl-%{_modname}
 Version:	0.7
 Release:	0.2
@@ -28,9 +28,9 @@ A C extension that interfaces with the mono library to allow access to
 
 In PECL status of this package is: %{_status}.
 
-%description -l pl
-Rozszerzenie w C, które jest interfejsem do biblioteki mono,
-pozwalaj±cym na dostêp do wstawek w .NET.
+%description -l pl.UTF-8
+Rozszerzenie w C, ktÃ³re jest interfejsem do biblioteki mono,
+pozwalajÄ…cym na dostÄ™p do wstawek w .NET.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
