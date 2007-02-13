@@ -5,7 +5,7 @@
 %define		_modname	mono
 %define		_status		beta
 Summary:	Allows you to access .NET assemblies from PHP
-Summary(pl.UTF-8):   Pozwala na dostęp do wstawek .NET w PHP
+Summary(pl.UTF-8):	Pozwala na dostęp do wstawek .NET w PHP
 Name:		php-pecl-%{_modname}
 Version:	0.7
 Release:	0.2
