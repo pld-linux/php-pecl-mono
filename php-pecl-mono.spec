@@ -4,12 +4,12 @@
 # - package examples into examplesdir
 %define		_modname	mono
 %define		_status		beta
-Summary:	Allows you to access .NET assemblies from PHP
-Summary(pl.UTF-8):	Pozwala na dostęp do wstawek .NET w PHP
+Summary:	%{_modname} - allows you to access .NET assemblies from PHP
+Summary(pl.UTF-8):	%{_modname} - pozwala na dostęp do wstawek .NET w PHP
 Name:		php-pecl-%{_modname}
 Version:	0.7
 Release:	0.2
-License:	PHP 2.02
+License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	23639443898018a743250a62b1873a89
